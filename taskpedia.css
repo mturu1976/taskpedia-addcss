@@ -1,0 +1,51 @@
+/* モーダル */
+ .task-list>.task-setting-modal>.task-setting {
+     top: 5%;
+     height: 87%;
+ }
+ 
+/*  UI */
+ .sub-task-area li, .sub-task-area ul {
+     height: 25px;
+ }
+
+/* button */
+.btn{
+    width:128px;
+}
+
+ .button-set {
+     display: flex;
+     flex-flow: row wrap;
+     width:128px;
+     margin-right:20px;
+ }
+ .button-set .btn {
+     margin-bottom:10px;
+ }
+ .button-set .btn-primary {
+     order: 1;
+ }
+ .button-set .btn-success {
+     order: 2;
+ }
+ .button-set .btn-danger {
+     order: 3;
+ }
+ .button-set>input[type=button].addtask {
+     margin-bottom:20px;
+     margin-left: auto;
+     margin-right:auto;
+ }
+ 
+ .filter-select .btn{
+     width:135px;
+}
+
+.task-setting>.header>.title {
+    display: table-cell;
+    text-align: left;
+    padding-left: 10px;
+    width: 65%;
+}
+
